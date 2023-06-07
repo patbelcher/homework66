@@ -1,4 +1,4 @@
-nav {
+nav, footer {
     background-color: #333;
   }
   
@@ -76,6 +76,11 @@ nav {
     
   }
   
-  
+  footer {
+    color: white;
+    text-align:center;
+    font-size: 16px;
+    padding: 10px;
+  }
 
   
