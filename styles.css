@@ -1,0 +1,44 @@
+nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+
+  .background-section {
+    background-image: url("luna.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+  }
+
+  .luna {
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    
+  }
+  
+  
+
+  
