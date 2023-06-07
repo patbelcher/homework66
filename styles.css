@@ -23,6 +23,43 @@ nav {
     background-color: #555;
   }
 
+  .fly-in-text {
+    animation-name: flyInAnimation;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes flyInAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .fade-in-text {
+    opacity: 0;
+    animation-name: fadeInAnimation;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+
+
   .background-section {
     background-image: url("luna.jpeg");
     background-repeat: no-repeat;
